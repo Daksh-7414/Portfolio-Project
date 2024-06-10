@@ -1,0 +1,101 @@
+/* About Section Code */
+.about .abt-sec{
+    display:flex; 
+    flex-direction: column; 
+    align-items:center;
+}
+.about .abt-sec p{
+    max-width: 800px;
+}
+.about .abt-sec span{
+    height :5px;
+    width: 40px;
+    background: var(--primary_icon);
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+
+  .about .abt-p{
+    vertical-align: middle;
+    align-self:center;
+  }
+  .about .abt-p p{
+    max-width: 620px;
+  }
+  .about .abt-p .row div div .ab_line{
+    height: 190px;
+     width: 5px; 
+     background-color: #32313fa4; 
+     margin-left: 10px;
+  }
+  .about .abt-p .row div div .ab_line .abt-cir{
+    border-radius: 50%;
+    width: 20px; 
+    height: 20px; 
+    background-color: #7663de; 
+    position: relative; 
+    left: -7.5px;
+  }
+  .about .abt-p .row div div .ab_line #ab-c1{
+    top: 16px;
+  }
+  .about .abt-p .row div div .ab_line #ab-c2{
+    top: 59px;
+  }
+  .about .abt-p .row div div .ab_line #ab-c3{
+    top: 98px;
+  }
+  .about .abt-p .row div div .abt_det{
+    padding-top: 15px; padding-left: 25px;
+  }
+  .about .abt-p .row div div .abt_det #ab1{
+    line-height: 22px; font-size: 20px;
+  }
+  .about .abt-p .row div div .abt_det #ab1 p{
+    font-size: 16px; margin-left: 22px;
+  }
+  .about .abt-p .row div div .abt_det #ab2{
+    line-height: 20px; font-size: 20px;
+  }
+  .about .abt-p .row div div .abt_det #ab2 p{
+    font-size: 16px; margin-left: 22px;
+  }
+  .about .abt-p .row div div .abt_det #ab3{
+    line-height: 19px; font-size: 20px
+  }
+  .about .abt-p .row div div .abt_det #ab3 p{
+    font-size: 16px; margin-left: 22px;
+  }
+  .about .abt-p .row div div .abt_det #ab4{
+    line-height: 22px; font-size: 20px;
+  }
+  .about .abt-p .row div div .abt_det #ab5{
+    line-height: 19px; font-size: 20px;
+  }
+  .about .abt-p .row div div .abt_det #ab6{
+    line-height: 19px; font-size: 20px;
+  }
+  .about .abt-p .row div div .abt_det .ab-det p{
+    font-size: 16px; margin-left: 20px;
+  }
+  .about .about-skill .skill-name{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .about .about-skill .skill-name div{
+    border-radius: 5px;
+    padding: 12px 25px 12px 25px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-right: 40px;
+    margin-bottom: 20px;
+  }
+  @media (max-width: 1200px) {
+    .about .about-skill .skill-name div{
+        margin-right: 20px;
+    }
+  }
+  

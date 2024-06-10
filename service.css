@@ -1,0 +1,27 @@
+/* Service Setion Code */
+.service .cards i{
+    margin-top: 20px !important;
+    font-size: 3rem;
+}
+.service .cards .card .card-body .card-text{
+    text-wrap:none;
+}
+.service .ser-sec{
+    display:flex; 
+    flex-direction: column; 
+    align-items:center;
+    margin-bottom: 20px;
+}
+.service .ser-sec span{
+    height :5px;
+    width: 40px;
+    background: var(--primary_icon);
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+/* @media (max-width:576px) {
+    .service .cards{
+        width: 23rem;
+        margin-left: 30px;
+    }
+} */

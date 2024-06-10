@@ -1,0 +1,23 @@
+/* Footer Section Code  */
+#footer{
+    background-color: #17171f !important;
+    padding-top: 40px; 
+    width: 100%;
+}
+  footer .row-i{
+    padding-bottom: 8px;
+  }
+  footer .row-i .det-1 p{
+    text-wrap:balance;
+  }
+  footer .row-i .det-1 h4, footer .row-i .det-2 h4{
+    margin-bottom: 15px;
+  }
+  footer a{
+    text-decoration: none !important;
+  }
+  
+  footer i{
+    font-size: 1.6rem;
+    margin-right: 15px;
+  }
